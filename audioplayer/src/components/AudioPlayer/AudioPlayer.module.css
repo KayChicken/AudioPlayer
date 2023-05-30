@@ -1,0 +1,96 @@
+
+
+.root {
+    display: inline-flex;
+    background-color: #fdfdfe;
+    width: 240px;
+    height: 100px;
+    border-radius: 4px;
+}
+
+.contentBlock {
+    padding: 5px 15px 5px 15px;
+    display: flex;
+
+
+}
+
+.audioPlayer_function_block {
+    margin-top: 15px;
+    text-align: center;
+    display: inline-flex;
+    justify-content: space-between;
+    width: 80px;
+}
+
+.icon_prev {
+    cursor: pointer;
+
+    height: 20px;
+
+}
+
+.icon_play {
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    margin-right: -3px;
+}
+
+.icon_next {
+    cursor: pointer;
+
+    height: 20px;
+
+
+}
+
+.icon_stop {
+    cursor: pointer;
+
+    height: 20px;
+
+}
+
+.navigation_wrapper {
+
+    margin-top: 10px;
+    height: 3px;
+    width: 80px;
+    background-color: #d1d7dd;
+}
+
+.seek_bar {
+    width: 0;
+    content: " ";
+    height: 100%;
+    background-color: #5080b8;
+}
+
+.audio_name {
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+}
+
+.audio_author {
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    font-size: 12px;
+    color: #666666;
+
+}
+
+.audio_label {
+
+    margin-left: 45px;
+    height: 90px;
+    width: 90px;
+
+}
+
+.audio_image {
+    display: block;
+    border-radius: 5px;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
